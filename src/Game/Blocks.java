@@ -9,7 +9,7 @@ import javafx.scene.layout.Pane;
 
 public class Blocks extends Pane {
 
-    Image blockImg = new Image(getClass().getResourceAsStream("Wall.1.1.png"));
+    Image blockImg = new Image(getClass().getResourceAsStream("Images/Wall.1.1.png"));
     ImageView block;
 
     public enum BlockType{

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="600.0" prefWidth="1024.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1024.0">
+         <children>
+            <BorderPane layoutX="140.0" layoutY="220.0" prefHeight="600.0" prefWidth="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <center>
+                  <AnchorPane prefHeight="400.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox layoutX="-1.0" layoutY="-1.0" prefHeight="399.0" prefWidth="1024.0" AnchorPane.bottomAnchor="103.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="-1.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#NewGame" prefHeight="35.0" prefWidth="206.0" text="Новая игра">
+                                 <VBox.margin>
+                                    <Insets bottom="30.0" left="409.0" top="40.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#Records" prefHeight="35.0" prefWidth="206.0" text="Реплей" VBox.vgrow="ALWAYS">
+                                 <VBox.margin>
+                                    <Insets bottom="30.0" left="409.0" top="40.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#Multipleer" prefHeight="35.0" prefWidth="206.0" text="Мультиплеер">
+                                 <VBox.margin>
+                                    <Insets bottom="30.0" left="409.0" top="40.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button fx:id="out" mnemonicParsing="false" prefHeight="35.0" prefWidth="206.0" text="Выход" VBox.vgrow="ALWAYS">
+                                 <VBox.margin>
+                                    <Insets bottom="40.0" left="409.0" top="40.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <Button layoutX="54.0" layoutY="421.0" mnemonicParsing="false" onAction="#Settings" prefHeight="37.0" prefWidth="108.0" text="Настроки" />
+                     </children>
+                     <BorderPane.margin>
+                        <Insets top="30.0" />
+                     </BorderPane.margin>
+                  </AnchorPane>
+               </center>
+               <top>
+                  <AnchorPane prefHeight="69.0" prefWidth="480.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <HBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label fx:id="Welcome" prefHeight="51.0" prefWidth="1024.0" text="                    Welcome to the WORLD OF TANKS!" textFill="#686463">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </top>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

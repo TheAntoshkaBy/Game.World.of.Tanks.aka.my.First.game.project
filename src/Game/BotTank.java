@@ -18,7 +18,7 @@ public class BotTank extends Pane {
 
     boolean Life = true;
 
-    Image bot = new Image(getClass().getResourceAsStream("2.3.6.png"/*"11.png"*/));
+    Image bot = new Image(getClass().getResourceAsStream("Images/2.3.6.png"/*"11.png"*/));
     ImageView imageView = new ImageView(bot);
 
 
@@ -104,14 +104,6 @@ public class BotTank extends Pane {
         }
 
     }
-
-
-
-
-
-
-
-
 
 }
 

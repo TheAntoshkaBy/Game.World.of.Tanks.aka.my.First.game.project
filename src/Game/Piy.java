@@ -22,7 +22,7 @@ public  class Piy extends Pane implements Runnable {
 
 
     SpriteAnimation animation;
-    Image piyImg = new Image(getClass().getResourceAsStream("Wall.1.1.png"));
+    Image piyImg = new Image(getClass().getResourceAsStream("Images/Wall.1.1.png"));
     ImageView piy = new ImageView(piyImg);
 
     public String GetMeaning()

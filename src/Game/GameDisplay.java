@@ -40,9 +40,9 @@ public class GameDisplay extends Application
     Button exit;
     private final int speed = 10;
 
-    Image backGroundImg = new Image(getClass().getResourceAsStream("back.png"));
-    Image tank = new Image(getClass().getResourceAsStream("2.3.6.png"/*"11.png"*/));
-    Image tank2 = new Image(getClass().getResourceAsStream("2.3.6.png"/*"11.png"*/));
+    Image backGroundImg = new Image(getClass().getResourceAsStream("Images/back.png"));
+    Image tank = new Image(getClass().getResourceAsStream("Images/2.3.7.png"/*"11.png"*/));
+    Image tank2 = new Image(getClass().getResourceAsStream("Images/2.3.6.png"/*"11.png"*/));
 
     private HashMap<KeyCode,Boolean> keys = new HashMap<>();
     public static ArrayList<Blocks> platforms = new ArrayList<>();
@@ -593,7 +593,6 @@ public class GameDisplay extends Application
 
                 switch (multiPiys.get(i).getSide()) {
                     case "UP": {
-                        System.out.println("HHHHHHHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDDDDDDDDDDDDDDDDDDLEEEEEEEEEEEEEEEEE");
                         multiPiys.get(i).moveYbt(-speed * 2, element2);
 
                         break;
@@ -619,7 +618,6 @@ public class GameDisplay extends Application
 
                 switch (multiPiys.get(i).getSide()) {
                     case "UP": {
-                        System.out.println("SSSSSSSSSSSSSSSSSSEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCCCCCCCOOOOOOOOOOONNNNNNNNNNNDDDDDDDDDDD");
                         multiPiys.get(i).moveYbt(-speed * 2, element);
 
 

@@ -29,7 +29,7 @@ public class MyElements extends Pane
     ImageView imageView;
 
     SpriteAnimation animation;
-    Image piyImg = new Image(getClass().getResourceAsStream("Wall.1.1.png"));
+    Image piyImg = new Image(getClass().getResourceAsStream("Images/Wall.1.1.png"));
     ImageView piy = new ImageView(piyImg);
 
     public  ImageView getIMG()
