@@ -13,5 +13,5 @@ World of Tanks - игровое приложение 2D формата, с во�
 ![](https://github.com/TheAntoshkaBy/Game.World.of.Tanks.aka.my.First.game.project/blob/master/documentation/Screenshots/Gameplay.jpg)<br>
 Окно конца игры.<br>
 ![](https://github.com/TheAntoshkaBy/Game.World.of.Tanks.aka.my.First.game.project/blob/master/documentation/Screenshots/GameOverEvent.jpg)<br>
-Мульиплеер. Цель поразить противника. У каждого по три "жизни". Первый танк управляется клавишами - ↑, ↓, ←, →, стрелять - Space. Второй - W,S,A,D, стрельба - S.<br>
+Мультиплеер. Цель поразить противника. У каждого по три "жизни". Первый танк управляется клавишами - ↑, ↓, ←, →, стрелять - Space. Второй - W,S,A,D, стрельба - S.<br>
 ![](https://github.com/TheAntoshkaBy/Game.World.of.Tanks.aka.my.First.game.project/blob/master/documentation/Screenshots/mult.jpg)<br>
